@@ -1,2 +1,2 @@
-release: python3 ReleaseScript.py
+release: python ReleaseScript.py
 web: java -jar target/java-getting-started-1.0.0-SNAPSHOT.jar
