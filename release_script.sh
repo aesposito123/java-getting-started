@@ -10,4 +10,6 @@ install_python() {
 }
 
 install_python
-python3 ReleaseScript.py
+PYTHON_PATH=$(which python3)
+echo "Python path: $PYTHON_PATH"
+$PYTHON_PATH ReleaseScript.py
